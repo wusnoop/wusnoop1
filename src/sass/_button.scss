@@ -9,6 +9,9 @@
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
+    &:hover {
+        box-shadow: 1px 1px 5px white, inset 1px 1px 5px white;
+    }
     &_main {
         margin-top: 67px;
         width: 300px;
@@ -23,4 +26,11 @@
         height: 55px;
      
     }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    
 }
